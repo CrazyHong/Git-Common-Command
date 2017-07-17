@@ -5,3 +5,9 @@ Git常用命令
 <pre>
 git init
 </pre>
+
+<b>配置用户名</b>
+<pre>git config --global user.name "xxx"</pre>
+
+<b>配置邮件</b>
+<pre>git config --global user.email "xxx@xxx.com"</pre>
