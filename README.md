@@ -11,3 +11,10 @@ git init
 
 <b>配置邮件</b>
 <pre>git config --global user.email "xxx@xxx.com"</pre>
+
+<b>git status等命令自动着色</b>
+<pre>git config --global color.ui true
+git config --global color.status auto
+git config --global color.diff auto
+git config --global color.branch auto
+git config --global color.interactive auto</pre>
