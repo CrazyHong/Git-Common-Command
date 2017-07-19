@@ -31,3 +31,9 @@ git clone git+ssh://git@192.168.53.168/VT.git</pre>
 
 <b>增加当前子目录下所有更改过的文件至index</b>
 <pre>git add</pre>
+
+<b>提交</b>
+<pre>git commit -m 'xxx'</pre>
+
+<b>合并上一次提交（用于反复修改）</b>
+<pre>git commit --amend -m 'xxx'</pre>
