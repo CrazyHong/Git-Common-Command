@@ -37,3 +37,14 @@ git clone git+ssh://git@192.168.53.168/VT.git</pre>
 
 <b>合并上一次提交（用于反复修改）</b>
 <pre>git commit --amend -m 'xxx'</pre>
+
+<b>将add和commit合为一步</b>
+<pre>git commit -am 'xxx'</pre>
+
+<b>删除index中的文件</b>
+<pre>git rm xxx</pre>
+
+<b>递归删除</b>
+<pre>git rm -r *</pre>
+
+<b></b>
