@@ -54,7 +54,30 @@ git clone git+ssh://git@192.168.53.168/VT.git</pre>
 <pre>git log -1</pre>
 
 <b>显示提交日志及相关变动文件</b>
-<pre>git log -stat
+<pre>git log --stat
 git log -p -m</pre>
 
+<b>显示某个提交的详细内容</b>
+<pre>
+git show dfb02e6e4f2f7b573337763e5c0013802e392818</pre>
 
+<b>可只用commitid的前几位</b>
+<pre>git show dfb02</pre>
+
+<b>显示HEAD提交日志</b>
+<pre>git show HEAD</pre>
+
+<b>显示HEAD的父（上一个版本）的提交日志 ^^为上两个版本 ^5为上5个版本</b>
+<pre>git show HEAD^</pre>
+
+<b>显示已存在的tag</b>
+<pre>git tag</pre>
+
+<b>增加v2.0的tag</b>
+<pre>git tag -a v2.0 -m 'xxx'</pre>
+
+<b>显示v2.0的日志及详细内容</b>
+<pre>git show v2.0</pre>
+
+<b>显示v2.0的日志</b>
+<pre>git log v2.0</pre>
