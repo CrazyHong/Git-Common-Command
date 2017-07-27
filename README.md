@@ -81,3 +81,15 @@ git show dfb02e6e4f2f7b573337763e5c0013802e392818</pre>
 
 <b>显示v2.0的日志</b>
 <pre>git log v2.0</pre>
+
+<b>显示所有未添加至index的变更</b>
+<pre>git diff</pre>
+
+<b>显示所有已添加index但还未commit的变更</b>
+<pre>git diff --cached</pre>
+
+<b>比较与上一个版本的差异</b>
+<pre>git diff HEAD^</pre>
+
+<b>比较与HEAD版本lib目录的差异</b>
+<pre>git diff HEAD -- ./lib</pre>
