@@ -47,4 +47,14 @@ git clone git+ssh://git@192.168.53.168/VT.git</pre>
 <b>递归删除</b>
 <pre>git rm -r *</pre>
 
-<b></b>
+<b>显示提交日志</b>
+<pre>git log</pre>
+
+<b>显示1行日志 -n为n行</b>
+<pre>git log -1</pre>
+
+<b>显示提交日志及相关变动文件</b>
+<pre>git log -stat
+git log -p -m</pre>
+
+
