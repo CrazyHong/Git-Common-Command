@@ -1,6 +1,35 @@
 # Git-Common-Command
 Git常用命令
 
+<b>上传本地code到github</b>
+<pre>
+在已经配置好git仓库的前提下
+切换到你存放git code的文件夹下
+cd D:\Git
+在github上创建好repository，并clone到本地
+git clone http:/xxx/xxx/.git
+切换到对应文件夹下
+cd xxx
+pull对应branch
+git pull origin master
+将所要改变的文件拷贝到本地文件夹下，并commit
+git commit -m "commit"
+push到git hub
+git push origin master
+</pre>
+
+
+<b>删除某个repository的中的文件</b>
+<pre>
+切换到对应文件夹下，执行删除命令
+git rm  -r *
+(若要删除特定文件，参考本页删除命令)
+提交删除
+git commit -m "delete"
+push到git hub
+git push origin master
+</pre>
+
 <b>初始化本地git仓库（创建新仓库）</b>
 <pre>
 git init
