@@ -10,9 +10,9 @@ cd D:\Git
 git clone http:/xxx/xxx/.git
 切换到对应文件夹下
 cd xxx
-pull对应branch
-git pull origin master
-将所要改变的文件拷贝到本地文件夹下，并commit
+将所要改变的文件拷贝到本地文件夹下，并执行add操作
+git add .(若要add某个特定的文件，参考本页其他命令)
+commit修改
 git commit -m "commit"
 push到git hub
 git push origin master
